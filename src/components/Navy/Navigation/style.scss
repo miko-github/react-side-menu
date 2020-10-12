@@ -1,9 +1,20 @@
 @import '/home/admin/.cdn/style/style.scss';
 
+#root {
+	display: flex;
+	flex-wrap: wrap;
+	main {
+		@include size($wa: 100);
+		@extend %bg-gold;
+		overflow: hidden;
+	}
+}
+
 nav {
 	@extend %sticky;
 	@extend %ha-100v;
-	@extend %wa-25v;
+	@include size($w: 2, $wn: 100px, $wx: 100px);
+
 	@extend %bg-rose;
 	overflow: hidden;
 
