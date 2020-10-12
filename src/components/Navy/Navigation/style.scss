@@ -1,0 +1,27 @@
+@import '/home/admin/.cdn/style/style.scss';
+
+nav {
+	@extend %sticky;
+	@extend %ha-100v;
+	@extend %wa-25v;
+	@extend %bg-rose;
+	overflow: hidden;
+
+	ul > li {
+		margin: 3px;
+		background-color: seagreen;
+	}
+
+	a {
+		text-decoration: none;
+		color: $dark;
+		font-weight: bold;
+		background-color: $gold;
+		&:active,
+		&:visited,
+		&:link,
+		&:hover {
+			color: $dark;
+		}
+	}
+}
