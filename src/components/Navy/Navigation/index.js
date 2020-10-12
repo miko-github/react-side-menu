@@ -12,6 +12,7 @@ export default (props) => {
 						) : (
 							<li>
 								<a href={item.path} title={item.title}>
+									<span className='mdi mdi-taxi'></span>
 									{item.text}
 								</a>
 							</li>
