@@ -5,7 +5,7 @@
 	flex-wrap: wrap;
 	main {
 		@include size($wa: 100);
-		@extend %bg-gold;
+		// @extend %bg-gold;
 		overflow: hidden;
 	}
 }
@@ -15,19 +15,19 @@ nav {
 	@extend %ha-100v;
 	@include size($w: 2, $wn: 100px, $wx: 100px);
 
-	@extend %bg-rose;
+	// @extend %bg-rose;
 	overflow: hidden;
 
 	ul > li {
 		margin: 3px;
-		background-color: seagreen;
+		// background-color: seagreen;
 	}
 
 	a {
 		text-decoration: none;
 		color: $dark;
 		font-weight: bold;
-		background-color: $gold;
+		// background-color: $gold;
 		&:active,
 		&:visited,
 		&:link,
